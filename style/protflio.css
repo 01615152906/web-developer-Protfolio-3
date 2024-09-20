@@ -166,5 +166,59 @@ font-weight: 400;
      font-weight: 400;
 
  }
+ .plans-title{
+     color:  #151414;
+     text-align: center;
+     
 
+font-size: 40px;
+
+font-weight: 700;
+
+ }
+
+ .skills-container{
+     
+     
+     display: flex;
+     gap: 70px;
+     text-align: center;
+     /* padding: 250px */
+     padding-left: 270px;
+     padding-right:250px ;
+     
+    
+      
+ }
  
+ .skill{
+     /* padding: px;
+     border-radius: 5px;
+     background: #FFFFFF;
+
+     box-shadow: 0px 6px 50px 0px #0000000F; */
+ 
+
+     
+}
+.icons{
+     width: 92.958px;
+height: 92.958px;
+}
+.skill-title{
+     color:  #151414;
+
+
+     font-size: 20px;
+
+     font-weight: 700;
+}
+.skill-descrition{
+     color:  #737272;
+
+
+font-size: 17px;
+
+font-weight: 500;
+
+}
