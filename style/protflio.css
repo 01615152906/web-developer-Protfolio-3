@@ -1,15 +1,15 @@
-/* common shared styles
+ common shared styles
 
-body {
+ body{
      font-family: "Open Sans", sans-serif;
      padding: 0;
      margin: 0;
-} */
+} 
 
 
 /*common shared styles*/
 
-body{
+/* body{
      font-family: "Open Sans", sans-serif;
      font-optical-sizing: auto;
      font-weight: <weight>;
@@ -18,7 +18,7 @@ body{
        "wdth" 100;
       
        
-}
+} */
 
 .banner {
      background-image: url(/images/banner/banner1.png);
@@ -267,4 +267,94 @@ font-size: 20px;
 font-weight: 600;
 border: none;
 }
+
+.footer{
+     background-color: black;
+
+     width: 1340px;
+height: 500px;
+     display: flex;
+     gap: 30px;
+}
+
+
+.footer-column{
+    
+     padding: 50px 200px ;
+}
+
+.footer-title{
+     color: #F8F8F8;
+
+
+font-size: 45px;
+
+font-weight: 700;
+
+}
+
+.footer-description{
+     color: #FFF;
+
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+
+.icons-2{
+     width: 30px;
+height: 30px;
+
+}
+
+.button-3{
+     padding-top: 20px;
+}
+.button-title{
+     border-radius: 8px;
+background: #FFF;
+width: 170.106px;
+height: 64px;
+color: #F15B22;
+
+
+font-size: 20px;
+
+font-weight: 600;
+
+
+}
+ .contact input[type="phone"], .contact input[type="email"]{
+     
+     display: block;
+     margin-bottom: 10px;
+
+     padding: 5px 10px;
+     color:  #F3F3F3;
+
+     border-radius: 5px;
+border: 1px solid #FFF;
+background-color: black;
+     
+     
+
+     border: 0;
+     width: 100%;
+
+
+}
+
+.social-link a{
+     
+     margin-right: 25px;
+
+}
+
+.social-link{
+     padding-top: 10px;
+}
+ 
+
 
